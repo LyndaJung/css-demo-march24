@@ -20,6 +20,21 @@ div {
 
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link on nav item*/
+.nav-left-link:hover:hover {
+    text-decoration: line-through;
+    
+}
+
+
 .nav-left {
     z-index: 600;
     width: 6%;
@@ -53,13 +68,12 @@ div {
 
 }
 
-a:link {
-    text-decoration: none;
-}
+.nav-line {
+    width: 1px;
+    height: 100px;
+    background-color: var(--charcoal);
+    margin-top: 10px;
+    margin-bottom: 80px;
 
-/* mouse over link on nav item*/
-.nav-left-link:hover:hover {
-    text-decoration: line-through;
-    
-}
+
 
